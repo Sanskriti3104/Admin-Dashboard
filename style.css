@@ -12,7 +12,7 @@
     --text-light-color: #ffffff;
     --text-dark-color: #333333;
     --border-radius: 8px;
-    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shawdow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -53,6 +53,10 @@ body {
     font-size: 1.5rem;
 }
 
+.sidebar-header .material-icons{
+    font-size: 2rem;
+}
+
 .sidebar-nav{
     display: grid;
     grid-template-rows: auto auto 1fr;
@@ -77,6 +81,10 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.nav-item .material-icons{
+    font-size: 1.5rem;
+}
+
 .nav-item span{
     font-size: 1.1rem;
     font-weight: 500;
@@ -90,7 +98,7 @@ body {
     grid-area: header;
     display: grid;
     grid-template-rows: auto auto;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shawdow);
     z-index: 1;
 }
 
@@ -164,7 +172,7 @@ body {
     font-weight: 600;
 }
 
-.action-btn{
+.action-buttons{
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -189,7 +197,7 @@ body {
 .main-content {
     grid-area: main-content;
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 3fr 1fr;
     gap: 1.5rem;
     padding: 1.5rem;
     overflow-y: auto;
@@ -213,7 +221,8 @@ body {
     border-left: 5px solid var(--accent-color);
     border-radius: var(--border-radius);
     padding: 1.5rem;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shawdow);
+    /* height: 100%; */
 }
 
 .project-card h4{
@@ -223,8 +232,24 @@ body {
 
 .project-card p{
     color: #666;
-    padding: 1.5rem;
+    margin-bottom: 1.5rem;
     flex: 1;
+}
+
+.project-actions{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.project-card .material-icons{
+    cursor: pointer;
+    color: #666;
+    transition: color 0.2s;
+}
+
+.project-card .material-icons:hover{
+    color: var(--primary-color);
 }
 
 /* Right Sidebar Styles */
