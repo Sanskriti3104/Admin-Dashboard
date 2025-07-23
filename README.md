@@ -1,5 +1,5 @@
 # Admin Dashboard
-A responsive and modern admin dashboard built with **HTML** and **CSS** only. Features a sidebar, header, project cards, announcements, and trending users — styled using Flexbox and CSS Grid.
+A responsive and modern admin dashboard built with **HTML** and **CSS** only. This project showcases a structured layout with a sidebar, header, project section, announcements, and trending users — styled using **Flexbox** and **CSS Grid**.
 
 ## 🔧 Tech Stack
 - HTML5
@@ -16,11 +16,12 @@ A responsive and modern admin dashboard built with **HTML** and **CSS** only. Fe
 
 ## 📸 Live Preview
 
-Link: 
+Link: https://sanskriti3104.github.io/Admin-Dashboard/
 
 ## 📄 License
 This project is open-source and free to use under the MIT License.
 
 ## 🙌 Acknowledgements
+- [The Odin Project](https://www.theodinproject.com/) 
 - Google Material Icons
 - UI Avatars
